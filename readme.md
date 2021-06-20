@@ -1,0 +1,1 @@
+Estudando sites responsivos.
