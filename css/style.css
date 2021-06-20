@@ -207,3 +207,23 @@
     margin-top: 2%;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/* MEDIA TYPES
+screen
+Para monitores ou dispositivos com telas coloridas e resolução adequada.
+print
+Para impressoras. Muito usado para dar uma versão de impressão do site.
+*/
+
+/*============ MOBILE FIRST ============*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        background: url(../img/logo.png) center center/214px no-repeat;
+        font-size: 0;
+    }
+    .btn {
+        font-size: 2em;
+    }
+}
